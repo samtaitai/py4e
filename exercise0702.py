@@ -8,5 +8,5 @@ for line in fhand:
         count = count + 1
         spamn = line[20:]
         floatn = floatn + float(spamn)
-
-print('Average Spam Confidence:', floatn / count)
+        averagen = float(floatn / count)
+print('Average Spam Confidence:', averagen)
