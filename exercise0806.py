@@ -1,11 +1,9 @@
 numlist = []
+submit = input('Enter a number: ')
 while True:
-    submit = input('Enter a number: ')
-    if submit == 'done':
-        break
-    else:
-        value = int(submit)
-        numlist.append(value)
-
+    submit == 'Done'
+    break
+else:
+    numlist.append(submit)
 print('Maximum:', max(numlist))
 print('Minimum:', min(numlist))
