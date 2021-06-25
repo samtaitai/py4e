@@ -13,10 +13,10 @@ for line in handle:
         piece = line.split()
         email = piece[1]
         lst.append(email)
-        for email in lst:
-            #email is key, result of method 'get' is value
-            counts[email] = counts.get(email, 0) + 1
-
+#make histogram
+for email in lst:
+    #email is key, result of method 'get' is value
+    counts[email] = counts.get(email, 0) + 1
 #None means no value
 bigperson = None
 msgcount = None
